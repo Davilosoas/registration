@@ -14,3 +14,120 @@ a {
 * {
   box-sizing: border-box;
 }
+header {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  color:white;
+  font-size: xx-large;
+  font-weight: 700;
+}
+section {
+  display:flex;
+  flex-direction: column;
+  
+  width: 100vw;
+  
+  
+}
+
+#creatForm {
+  display:flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  
+  align-items: center;
+  margin-top: 1vw;
+  
+    
+}
+
+#creatForm > * {
+  width: 40vw;
+}
+
+#obs {
+  height:10vh;
+}
+
+#creatForm > input {
+  height: 5vh;
+}
+
+
+
+#division {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  color:white;
+  font-size: xx-large;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+#users {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  margin-top: 0vw;
+}
+#users > * {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 5vw;
+  width: calc(100 / 3)vw;
+  margin-top: 3vh;
+}
+#userForm {
+  margin-left: 3;
+  height:100vh;
+  width: calc(100/3)vw;
+  margin-top: 0px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20vh;
+}
+#buttons {
+  height: 6vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+   ;
+}
+
+#buttons > * {  
+  height:5vh;
+  width: 6vw;
+  border-radius: 5px;
+}
+#change {
+  /* background-color:yellow; */
+  color: rgb(197, 197, 25);
+  font-weight: 700;
+  border-color: rgb(197, 197, 25);
+}
+#delete {
+  color:red;
+  font-weight: 700;
+  margin-left: 1vw;
+  /* background-color: rgb(225, 48, 48); */
+  border-color: red;
+}
+#buttons > *:hover {  
+  filter: brightness(75%);
+}
+
+#cadastrar {
+  margin:2vh;
+}
